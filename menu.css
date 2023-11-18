@@ -1,0 +1,152 @@
+@media (max-width:998px){
+    .meals .h2-1{
+        font-size: 35px;
+    }
+    .meals .h2-2{
+        font-size: 40px;
+    }
+    .meals-desc{
+        font-size: 14px;
+        width: auto!important;
+    }
+    .meals-menu{
+        width: auto!important;
+        margin: 0 auto!important;
+    }
+    .meals-menu ul{
+        width: 100%!important;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .meals-menu ul li{
+        font-size: 14px!important;
+    }
+}
+.meals{
+    padding: 100px 20px 20px 20px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.meals *{
+    padding: 0;
+    margin: 0;
+}
+.meals .h2-1{
+    padding: 0;
+    margin: 0
+}
+.meals .h2-2{
+    padding: 0;
+    margin: 0
+}
+.meals-desc{
+    width: 650px;
+    margin: 0 auto;
+    color: #a5a5a5;
+}
+.meals-menu{
+    display: flex;
+}
+.meals-menu ul{
+    margin: auto;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+.meals-menu ul li{
+    position: relative;
+    padding: 3px 0;
+    cursor: pointer;
+    margin: 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    flex-shrink: 0;
+    transition: all 0.4s ease;
+}
+.meals-menu ul li:hover{
+    color: #bb9356;
+}
+.meals-line{
+    width: 0%;
+    background-color: #bb9356;
+    border: none;
+    padding: 1px 0;
+    position: absolute;
+    bottom: 0;
+    transition: all 0.4s ease;
+}
+.meals-menu ul li:hover .meals-line{
+    width: 100%;
+}
+.meals-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.meal{
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    padding: 10px;
+}
+.meal img{
+    width: 110%;
+    padding: 0;
+}
+.meal-img:hover .meal-bg{
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+}
+.meal-img{
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+.meal-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 1px;
+    height: 0%;
+    width: 0%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(26, 26, 26, 0.462);
+    transition: all 0.4s ease;
+    color: white;
+}
+.meal-info{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.meal-info-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.meal-name{
+    text-align: start;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+}
+.meal-price{
+    text-align: end;
+    color: #bb9356;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+.meal-desc{
+    font-size: 15px;
+    color: #a5a5a5;
+    text-align: start;
+}

@@ -1,0 +1,616 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+@media (max-width:1280px){
+    .welcome-left .h2-2{
+        font-size: 40px;
+    }
+}
+@media (max-width:1190px){
+    .welcome-right img{
+        width: 90%!important;
+    }
+    .welcome-right-img-border{
+        width: 83%!important;
+    }
+    .welcome-left .h2-1{
+        font-size: 30px;
+    }
+    .welcome-left .h2-2{
+        font-size: 35px;
+    }
+    .welcome-left p{
+        font-size: 14px;
+    }
+}
+@media (max-width:991px){
+    .welcome{
+        flex-direction: column!important;
+    }
+    .welcome-left{
+
+       width: 100%!important;
+    }
+    .welcome-right{
+        width: 100%!important;
+        justify-content: space-between;
+    }
+    .dishes-menu{
+        flex-direction: column!important;
+    }
+    .dish{
+        width: 100%!important;
+    }
+    .meal-info{
+        width: 50%!important;
+    }
+    .meal-img{
+        width: 50%!important;
+    }
+    .meals-ul{
+        width: auto!important;
+    }
+    .customer{
+        display: none!important;
+    }
+    .customer1{
+        display: flex!important;
+        align-items: center!important;
+        flex-direction: column!important;
+        position: relative!important;
+        padding: 50px 50px 35px 50px!important;
+        margin: 40px 0px 65px 0px!important;
+        width: 120%!important;
+        background-color: white!important;
+        color: #a5a5a5!important;
+    }
+    .news-div{
+        justify-content: space-between;
+    }
+    .news-article-img img{
+        width: 140%!important;
+    }
+    .news-article-top-date{
+        width: 210px!important;
+        font-size: 10px!important;
+    }
+    .article-heading{
+        width: 100%;
+    }
+    .article2{
+        display: none!important;
+    }
+    
+}
+@media (max-width:766px){
+    .dishes .h2-1{
+        font-size: 26px;
+    }
+    .dishes .h2-2{
+        font-size: 30px;
+    }
+    .meals .h2-1{
+        font-size: 26px;
+    }
+    .meals .h2-2{
+        font-size: 30px;
+    }
+    .dish{
+        flex-direction: column;
+    }
+    .dish-price{
+        flex-direction: column;
+        text-align: center;
+    }
+    .dish-other{
+        margin: 0!important;
+        text-align: center!important;
+    }
+    .meals-div{
+        justify-content: center;
+    }
+    .meal-info{
+        margin:  0 0 10px 0!important;
+        width: 60%!important;
+    }
+    .meal-img{
+        margin: 10px!important;
+        padding: 200px 0;
+        width: 60%!important;
+    }
+    .meal-price{
+        font-size: 18px;
+    }
+    .meal-name{
+        font-size: 18px;
+    }
+    .meal-border{
+        width: 100%!important;
+        height: 100%!important;
+        margin: 0!important;
+        position: absolute;
+        top: 0;
+        border: dashed #bb9356 1px;
+    
+    }
+}
+@media (max-width: 680px){
+    .article1{
+        display: none!important;
+    }
+    .article{
+        width: 100%!important;
+    }
+    .news-article-img img{
+        width: 100%!important;
+    }
+    .customers .h2-1{
+        font-size: 30px;
+    }
+    .customers .h2-2{
+        font-size: 30px;
+    }
+}
+@media (max-width: 410px){
+    .customer1 p{
+        font-size: 12px;
+    }
+    .customer1{
+        padding: 50px 30px 35px 30px!important;
+    }
+    .customers-div{
+        justify-content: center!important;
+    }
+    .customers .h2-1{
+        font-size: 20px;
+    }
+    .customers .h2-2{
+        font-size: 20px;
+    }
+   .customer-stars{
+    font-size: 12px;
+   }
+}
+
+.topother{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 5%;
+}
+.topother *{
+    padding: 0;
+    margin: 0;
+}
+.btntopother{
+    padding: 15px 100px;
+    margin: 2%;
+    background-color: #bb9356;
+    color: white;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 40px;
+    transition: all 0.4s ease;
+}
+.btntopother:hover{
+    background-color: white;
+    color: #bb9356;
+}
+.welcome{
+    width: 98%;
+    margin: 0 auto;
+    padding: 140px 100px 100px 100px;
+    display: flex;
+}
+.welcome-left{
+    width: 50%;
+    text-align: center;
+ 
+}
+
+.welcome p{
+
+    text-align: center;
+    padding: 0 70px;
+    color: #a5a5a5;
+}
+
+.welcome-button{
+    padding: 15px 30px;
+    margin: 2%;
+    background-color: transparent;
+    border: solid black 2px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 40px;
+    transition: all 0.4s ease;
+}
+.welcome-button:hover{
+    color: white;
+    background-color: black;
+}
+.welcome-right{
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+.welcome-right-img1{
+    position: relative;
+    margin-right: 30px;
+}
+.welcome-right-img2{
+    position: relative;
+}
+.welcome-right-img-border{
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    margin: 10px;
+    position: absolute;
+    top: 0;
+    border: dashed #bb9356aa 1px;
+    z-index: 1;
+}
+.dishes{
+    width: 98%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: url(https://7oroof.com/demos/steakin/assets/images/background/21.jpg) center center fixed;
+    z-index: 1;
+}
+.bgdiv{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.751);
+    z-index: -1;
+    
+}
+.dishes-div{
+    padding: 50px 60px 0 60px;
+    margin: 100px auto;
+    width: 70%;
+    text-align: center;
+    background-color: white;
+    z-index: 3;
+    position: relative;
+}
+.dish-border{
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    margin: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: dashed #bb9356aa 1px;
+    z-index: 1;
+}
+.dishes-menu{
+    margin-top: 30px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
+.dish{
+    width: 45%;
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.dish-price{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #2d2d2d61 dashed 1px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.dish-name{
+    font-weight: bold;
+    font-size: 16px;
+}
+.dish-cost{
+    font-weight: bold;
+    font-size: 16px;
+    color: #bb9356;
+}
+.dish-other{
+    margin-left: 20px;
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    
+}
+.dish-desc{
+    color: #a5a5a5;
+    font-size: 14px;
+    font-weight: 500;
+}
+.dishes-arrow{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.meals{
+    width: 98%;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+.meals *{
+    text-align: center;
+    margin: 0 auto;
+}
+.meals p{
+    width: 44%;
+    margin-bottom: 50px;
+}
+.meals-ul{
+    width: 30%;
+    margin-bottom: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+.meals-ul li{
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all 0.4s ease;
+}
+.meals-ul li:hover{
+    font-weight: bold;
+    color: #bb9356;
+    font-size: 16px;
+}
+.meals-ul li:hover .meals-line{
+    width: 100%;
+}
+.meals-line{
+    width: 0;
+    background-color: #bb9356;
+    border: none;
+    height: 0;
+    margin: 5px 0 0 0;
+    padding: 1px 0;
+    transition: all 0.4s ease;
+}
+.meals-div{
+    box-shadow: 0px 1px 73px 0px rgba(40, 40, 40, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.meal-img{
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    width: 25%;
+    margin: 0;
+    background: url(https://7oroof.com/demos/steakin/assets/images/menu/menu-board/1.jpg) center center;
+    background-size: cover;
+}
+.meal-img-bg{
+    cursor: pointer;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1px;
+    width: 0%;
+    height: 0%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.549);
+    transition: all 0.4s ease;
+}
+.meal-img:hover .meal-img-bg{
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+}
+.meal-info{
+    padding: 70px 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 25%;
+    margin: 0;
+}
+.meal-info p{
+    margin: 0 auto;
+    width: 80%!important;
+}
+.meal-price{
+    font-size: 22px;
+    color: #bb9356;
+    font-weight: bold;
+}
+.meal-name{
+    font-size: 22px;
+    margin: 0!important;
+    width: 100%;
+    font-weight: bold;
+}
+.meal-desc{
+    font-size: 15px;
+    color: #a5a5a5;
+}
+.meal-border{
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    margin: 10px;
+    position: absolute;
+    top: 0;
+    border: dashed #bb9356aa 1px;
+
+}
+.meals-button{
+    margin: 50px;
+    background-color: transparent;
+    border: solid #bb9356 2px;
+    border-radius: 50px;
+    padding: 15px 60px;
+    font-weight: bold;
+    color: #bb9356;
+    transition: all 0.3s ease;
+}
+.meals-button:hover{
+    background-color: #bb9356;
+    border: solid #bb9356 2px;
+    color: white;
+}
+.customers{
+    position: relative;
+    padding: 0 100px;
+    width: 98%;
+    margin: 0 auto;
+    background: url(https://7oroof.com/demos/steakin/assets/images/background/1.jpg) fixed;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    z-index: -2;
+}
+.customers .h2-1{
+    margin-top: 60px;
+}
+.customers-arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.customers-div{
+    justify-content: space-between;
+    display: flex;
+}
+.customer-stars{
+    width: 120px;
+    margin-bottom: 10px;
+}
+.customer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding: 50px 50px 35px 50px;
+    margin: 40px 12px 65px 12px;
+    width: 33%;
+    background-color: white;
+    color: #a5a5a5;
+}
+
+.customer1 p:not(.customer-name){
+    width: 100%!important;
+}
+.customer p:not(.customer-name){
+    width: 120%;
+}
+.customer-profile{
+    margin: 20px 0;
+}
+.customer-name{
+    margin: 0;
+    color: #bb9356;
+    font-style: italic;
+    font-size: 14px;
+}
+.customer-arrow{
+    position: absolute;
+    bottom: -15px;
+}
+.customers-div-bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+.customer-border{
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    margin: 10px;
+    position: absolute;
+    top: 0;
+    border: dashed #bb9356aa 1px;
+    z-index: 1;
+}
+.news{
+    width: 98%;
+    padding: 100px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.news-div{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+}
+.article{
+    width: 33%;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.news-article-top-date{
+    width: 270px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #686868;
+    font-weight: 500;
+    margin: 0!important;
+}
+.news-article-top-date p{
+    margin: 0!important;
+}
+.news-article-top-date p:hover{
+    cursor: default;
+}
+.news-tag{
+    cursor: pointer!important;
+    color: #bb9356;
+    font-weight: bold;
+    transition: all 0.4s ease;
+}
+
+.news-tag:hover{
+    color: #947445;
+    font-weight: bold;
+}
+.article-heading{
+    cursor: pointer;
+    font-size: 22px;
+    text-align: start;
+    font-weight: bold;
+    transition: all 0.4s ease;
+}
+.news-article-img img{
+    width: 100%;
+}
+.article-heading:hover{
+    color: #bb9356;
+    font-size: 22px;
+    text-align: start;
+    font-weight: bold;
+}
+
+.news-article-footer{
+    margin-top: 30px;
+    font-size: 15px;
+    color: #a5a5a5;
+    text-align: start;
+}

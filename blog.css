@@ -1,0 +1,217 @@
+@media (max-width:998px){
+    .blogs{
+        flex-direction: column;
+    }
+    .blogs-right{
+        margin: 10px 0!important;
+        width: 100%!important;
+        padding: 0 150px 0 150px!important;
+    }
+    .pagination-div{
+        margin: 0 5px!important;
+    }
+    .blogs-input{
+        display: flex;
+        justify-content: center;
+    }
+    .blogs-search{
+        width: 80%!important;
+        margin: 0 0 0 auto!important;
+    }
+}
+@media (max-width:768px){
+    .blog-top{
+        font-size: 12px!important;
+        width: 300px!important;
+    }
+    .blogs-right{
+        padding: 0 30px 0 30px!important;
+    }
+    .blogs-left{
+        width: 100%;
+        margin: 0 auto!important;
+        padding: 0!important;
+        justify-content: center!important;
+    }
+    .blogs-pagination{
+        margin: 0 auto;
+        justify-content: center!important;
+    }
+    .pagination-div{
+        min-width: 30px!important;
+        height: 30px!important;
+    }
+}
+@media (max-width:400px){
+    .blog-top{
+        font-size: 8px!important;
+        width: 200px!important;
+    }
+    .blog-name{
+        font-size: 13px!important;
+    }
+}
+.blogs{
+    padding: 100px 0 0 0;
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+}
+.blogs *{
+    margin: 0;
+}
+.blogs-left{
+    width: 70%;
+    padding: 0 0 0 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.blog{
+    margin-bottom: 60px;
+}
+.blog img{
+    cursor: pointer;
+    width: 100%;
+}
+.blog-top{
+    width: 400px;
+}
+.blog-info{
+    justify-content: space-between;
+    display: flex;
+    font-weight: 500;
+    font-size: 13px;
+    color: #686868 ;
+}
+.blog-comment-quantity{
+    cursor: pointer;
+    color: #bb9356;
+    transition: all 0.4s ease;
+}
+.blog-comment-quantity:hover{
+    color: #a18a6b;
+}
+.blog-tags{
+    width: 44%;
+    justify-content: space-between;
+    display: flex;
+}
+.blog-tag{
+    cursor: pointer;
+    color: #bb9356;
+    transition: all 0.4s ease;
+}
+.blog-tag:hover{
+    color: #a18a6b;
+}
+.blog-name{
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 0 15px 0;
+    transition: all 0.4s ease;
+}
+.blog-name:hover{
+    color: #bb9356;
+}
+.blog-desc{
+    margin-top: 30px;
+    color: #a5a5a5;
+}
+.blogs-pagination{
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.pagination-div{
+    cursor: pointer;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 55px;
+    height: 55px;
+    background-color: #333333;
+    color: white;
+    transition: all 0.4s ease;
+    font-weight: bold;
+}
+.pagination-div:hover{
+    background-color: #bb9356;
+}
+.blogs-right{
+    width: 30%;
+    margin-left: 30px;
+}
+.blogs-search{
+    padding: 10px;
+    border: #c6c6c655 solid 1px;
+    outline: none;
+    border-right: none;
+}
+.blogs-search::placeholder{
+    font-size: 14px;
+    color: #a5a5a5;
+    padding: 5px;
+}
+.blogs-btn{
+    padding: 10px;
+    color: #bb9356;
+    background-color: transparent;
+    border: #c6c6c655 solid 1px;
+    outline: none;
+    border-left: none;
+}
+.recent-posts{
+    margin: 50px 0;
+}
+.recent-post{
+    display: flex;
+    width: 80%;
+}
+.post-right{
+    margin-left: 10px;
+}
+.post-date{
+    cursor: pointer;
+    font-size: 13px;
+    color: #686868;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.post-name{
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.4s ease;
+}
+.post-name:hover{
+    color: #bb9356;
+}
+.shop-filter{
+    margin-top: 50px!important;
+}
+.tags{
+    margin-top: 80px;
+}
+.tag-div{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.tag{
+    margin: 5px;
+    outline: none;
+    border: solid #c6c6c6 1px;
+    background-color: transparent;
+    color: #a1a1a1;
+    padding: 3px 10px;
+}
+.tag:hover{
+    border: solid transparent 1px;
+    background-color: #bb9356;
+    color: white;
+}

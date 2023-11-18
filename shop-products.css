@@ -1,0 +1,243 @@
+@media (max-width:992px){
+    .products{
+        flex-direction: column;
+    }
+    .products-left{
+        width: 100%!important;
+    }
+    .filters{
+        flex-wrap: wrap;
+        justify-content: center!important;
+    }
+    .products-right{
+        width: 100%!important;
+    }
+    .dish{
+        min-width: 40%!important;
+    }
+}
+@media (max-width:768px){
+    .filters-left p{
+        font-size: 12px!important;
+    }
+    .filter::placeholder{
+        font-size: 10px!important;
+    }
+    .dish{
+        min-width: 80%!important;
+    }
+    .dish-div{
+        justify-content: center!important;
+    }
+}
+.products{
+    padding: 100px 120px;
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+}
+.products *{
+    margin: 0;
+    padding: 0;
+}
+.products-left{
+    width: 75%;
+}
+.products-right{
+    width: 25%;
+    margin-left: 20px;
+}
+.filters{
+    justify-content: space-between;
+    width: 100%;
+    color: black;
+    font-weight: bold;
+    align-items: center;
+    display: flex;
+    padding: 20px 20px;
+    background-color: transparent;
+    border: solid #c6c6c655 1px;
+}
+.filters p{
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+}
+.filters-left{
+    display: flex;
+}
+.filters-right{
+    display: flex;
+}
+.filter{
+    color: #686868!important;
+    margin: 10px 0;
+    border: #686868 1px solid;
+    outline: none;
+}
+.filter::placeholder{
+    color: #c6c6c655;
+}
+.filter-cube{
+    margin: 0 10px;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid #c6c6c655 1px;
+}
+.filter-cube:hover i{
+    color: #bb9356;
+}
+
+.dish-div{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+}
+.dish{
+    width: 30%;
+    margin: 10px 0;
+}
+
+.dish p{
+    text-align: center;
+}
+.dish-img{
+    position: relative;
+}
+.dish img{
+    width: 100%;
+}
+.dish-img:hover .dish-bg{
+    width: 100%;
+    height: 100%;
+}
+.dish-img:hover .dish-button{
+    width: auto;
+    height: auto;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+.dish-bg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(38, 38, 38, 0.859);
+    width: 0%;
+    height: 0%;
+    transition: all 0.4s ease;
+}
+.dish-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #bb9356;
+    width: 0%;
+    height: 0%;
+    font-size: 0.1px;
+    border: none;
+    padding: 0;
+    height: 0%;
+    transition: all 0.5s ease;
+}
+.shop-pagination{
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.pagination-div{
+    cursor: pointer;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 55px;
+    height: 55px;
+    background-color: #333333;
+    color: white;
+    transition: all 0.4s ease;
+    font-weight: bold;
+}
+.pagination-div:hover{
+    background-color: #bb9356;
+}
+.shop-search{
+    padding: 10px;
+    border: #c6c6c655 solid 1px;
+    outline: none;
+    border-right: none;
+}
+.shop-search::placeholder{
+    font-size: 14px;
+    color: #a5a5a5;
+    padding: 5px;
+}
+.shop-btn{
+    padding: 10px;
+    color: #bb9356;
+    background-color: transparent;
+    border: #c6c6c655 solid 1px;
+    outline: none;
+    border-left: none;
+}
+.recent-posts{
+    margin: 50px 0;
+}
+.recent-post{
+    display: flex;
+    width: 80%;
+}
+.post-right{
+    margin-left: 10px;
+}
+.post-date{
+    cursor: pointer;
+    font-size: 13px;
+    color: #686868;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.post-name{
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.4s ease;
+}
+.post-name:hover{
+    color: #bb9356;
+}
+.tags{
+    margin-top: 80px;
+}
+.tag-div{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.tag{
+    margin: 5px;
+    outline: none;
+    border: solid #c6c6c6 1px;
+    background-color: transparent;
+    color: #a1a1a1;
+    padding: 3px 10px;
+    transition: all 0.4s ease;
+}
+.tag:hover{
+    border: solid transparent 1px;
+    background-color: #bb9356;
+    color: white;
+}
